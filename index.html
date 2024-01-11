@@ -10,15 +10,21 @@
     <title>Szabó Roland - A Hal</title>
 </head>
 <body background="kepek/the504GatewayError.png">
-    <iframe 
-        width="560" 
-        height="315" 
-        src="videok/spinningFish.mp4"
-        title="YouTube video player" 
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-    </iframe>
-    
+    <main>
+        <iframe
+            
+            width="560" 
+            height="315" 
+            src="videok/spinningFish.mp4"
+            frameborder="13"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+        </iframe>
+        <video id="hal" width="700" height="450" autoplay poster="image" preload="true">
+            <source src="videok/spinningFish.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        <button id="gomb" onclick="toggleVideoVisible()">+</button>
+        <script src="funk.js"></script>
+    </main>
 </body>
 </html>
