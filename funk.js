@@ -29,19 +29,17 @@
 // Sass Gyula
     // Szép.
         // Portfólió
-
-videoVisible = false
+let videoVisible = false
 function toggleVideoVisible(){
-    videoVisible = !videoVisible;
     if (videoVisible){
         let vid = document.getElementById("hal");
         vid.style.display = 'none';
-        vid.autoplay = true;
-        vid.load();
+        vid.pause();
     }
     else{
         let vid = document.getElementById("hal");
-        vid.style.display = 'block';
-        vid.autoplay = false;
+        vid.style.display = 'block';      
+        vid.play();
     }
+    videoVisible = !videoVisible;
 }
