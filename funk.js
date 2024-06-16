@@ -11,7 +11,7 @@ function toggleVideoVisible(){
         let vid = document.getElementById("hal");
         vid.style.display = 'block';      
         vid.play();
-        gomb.innerHTML = "-";
+        gomb.innerHTML = "V";
     }
     videoVisible = !videoVisible;
 }
