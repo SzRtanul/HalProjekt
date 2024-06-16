@@ -21,6 +21,15 @@ video{
 }
 button{
     position: absolute;
-    right:    13px;
-    bottom:   13px;
+    left:    13px;
+    top:   13px;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    color: bisque;
+    font-size: 50px;
+    border-radius: 90px;
+    text-align: center;
+    display: inline-block;
+    
 }
