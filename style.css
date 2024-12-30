@@ -26,8 +26,8 @@ video{
 }
 button{
     position: absolute;
-    left:    13px;
-    top:   13px;
+    right:    26px;
+    bottom:   26px;
     width: 60px;
     height: 60px;
     background-color: red;
